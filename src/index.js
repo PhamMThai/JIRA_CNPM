@@ -8,6 +8,11 @@ const port = 4000;
 //morgan
 app.use(morgan('combined'))
 
+
+//concect to db
+const db = require('./config/db/index.js')
+db.connect()
+
 //handlebar
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
