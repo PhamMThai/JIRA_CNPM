@@ -8,6 +8,7 @@ const port = 4000;
 //morgan
 app.use(morgan('combined'))
 
+
 //concect to db
 const db = require('./config/db/index.js')
 db.connect()
