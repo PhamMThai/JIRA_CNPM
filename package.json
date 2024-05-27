@@ -19,6 +19,10 @@
   "homepage": "https://github.com/PhamMThai/JIRA_CNPM#readme",
   "dependencies": {
     "express": "^4.19.2",
+
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.0.0"
+
     "express-handlebars": "^7.1.2",
     "mongoose": "^8.0.0"
 
@@ -32,6 +36,7 @@
     "mongoose": "^8.0.0"
 
     "express-handlebars": "^7.1.2"
+
 
 
 
