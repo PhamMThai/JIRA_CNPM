@@ -18,13 +18,12 @@ app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, 'resources/views'))
 console.log('PATH: ', path.join(__dirname, 'resources/views'))
 
-app.get('/', (req, res) => {
-    res.render('home');
-})
 
-app.get('/admin', (req, res) => {
-  res.render('admin');
-})
+const HomeController = require('./app/Controllers/HomeController')
+
+
+
+app.get('/trangchu', HomeController.home)
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`)
