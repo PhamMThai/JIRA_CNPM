@@ -22,11 +22,19 @@ console.log('PATH: ', path.join(__dirname, 'resources/views'))
 const HomeController = require('./app/Controllers/HomeController')
 
 const ProductController = require("./app/Controllers/ProductController.js")
+const SearchController = require("./app/Controllers/SearchController.js")
+
+
+const ProductController = require("./app/Controllers/ProductController.js")
 
 
 
 
 app.get('/trangchu', HomeController.home)
+
+app.get('/Product/:slug', ProductController.detail)
+app.get('/search', SearchController.search)
+
 
 app.get('/Product/:slug', ProductController.detail)
 
