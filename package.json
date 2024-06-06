@@ -1,16 +1,16 @@
 {
-  "name": "jira_cnpm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PhamMThai/JIRA_CNPM.git"
-  },
+    "name": "jira_cnpm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --inspect src/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PhamMThai/JIRA_CNPM.git"
+    },  
   "author": "Thai, Vu, Thu",
   "license": "ISC",
   "bugs": {
@@ -22,16 +22,8 @@
     "express-handlebars": "^7.1.2",
     "method-override": "^3.0.0",
     "mongoose": "^8.0.0",
-
     "mongoose-slug-updater": "^3.3.0",
     "multer": "^1.4.5-lts.1"
-
-    "mongoose-slug-updater": "^3.3.0"
-
-
-    "mongoose": "^8.0.0",
-    "mongoose-slug-updater": "^3.3.0"
-
   },
   "devDependencies": {
     "morgan": "^1.10.0",
